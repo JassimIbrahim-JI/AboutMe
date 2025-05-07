@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "msedge",
+        "request": "launch",
+        "name": "Launch Startup",
+        "file": "${workspaceFolder}/startup.html",
+        "runtimeArgs": ["--remote-debugging-port=9222"]
+      }
+    ]
+  }

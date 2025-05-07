@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jassim Ibrahim - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- Floating Navigation -->
+    <nav class="floating-nav">
+        <div class="nav-container">
+            <a href="#main" class="logo">Devel<span>o</span>per<b>.</b></a>
+          
+            <div class="nav-links">
+                <a href="#home">Main</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+  <!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="section-content">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Full Stack Developer</h1>
+                <p class="subheading">Building digital solutions that make an impact</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <!-- <div class="hero-image">
+                Add your circular hero image 
+                <img src="assets/imgs/web-development.jpg" alt="Developer portrait" class="hero-circle">
+            </div> -->
+        </div>
+    </div>
+</section>
+
+   <!-- About Section -->
+<section class="about" id="about">
+    <div class="section-content">
+        <div class="about-content">
+            <div class="about-image reveal">
+                <img src="assets/imgs/aboutme.png" alt="About Me" class="about-img">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Full Stack .NET Developer</h4>
+                <p class="bio">Detail-oriented .NET programmer with 3 years of experience developing web applications.
+                    Proficient in ASP.NET core, Bootstrap 5, Blazor WASM & C#. Skilled in problem solving and 
+                    database programming using SQL Server.
+                    <span id="show" class="hidden-text">Experienced in front-end development using HTML5, CSS3, JavaScript (ES6+), AJAX requests with jQuery, vanilla JS.</span>
+                </p>
+                <button class="btn btn-accent" id="readmore" aria-expanded="false">
+                    <span class="btn-text">Read More</span>
+                    <svg class="icon-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M5 13h14l-5.5 5.5 1.4 1.4 7.6-7.6-7.6-7.6-1.4 1.4L19 11H5v2z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <p>What I'm Expert In</p>
+            <h2><span>My</span> Services</h2>
+        </div>
+        <div class="services-grid">
+            <!-- E-Commerce Development (Avenderline) -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <ion-icon name="cart-outline"></ion-icon>
+                </div>
+                <h3>E-Commerce Development</h3>
+                <p>
+                    Developed <strong>Avenderline</strong> (Qatari abaya brand) e-commerce solution using 
+                    <strong>ASP.NET Core</strong> with <strong>HTML5/CSS3/JavaScript</strong>. Features include:
+                    product catalog, shopping cart, and secure checkout system.
+                </p>
+                <div class="service-links">
+                    <a href="https://github.com/JassimIbrahim-JI/avenderline-shop.git" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        
+            <!-- HR Management System -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <h3>HR Management System</h3>
+                <p>
+                    Built comprehensive HR solution with <strong>ASP.NET Core</strong> and <strong>SQL Server</strong>.
+                    Includes employee records, leave management, and reporting features
+                    using <strong>Blazor WASM</strong> for interactive UI.
+                </p>
+                <div class="service-links">
+                    <a href="https://github.com/JassimIbrahim-JI/EmployeeSolution.git" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        
+            <!-- Booking System -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+                <h3>Room Booking System</h3>
+                <p>
+                    Developing booking platform with <strong>ASP.NET MVC</strong> featuring:
+                    real-time availability checks, user authentication, and admin dashboard.
+                    Focused on responsive design and seamless user experience.
+                </p>
+                <div class="service-links">
+                    <a href="https://github.com/JassimIbrahim-JI/DiscQa.git" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-header">
+            <p>Recent works</p>
+            <h2><span>My</span> Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <!-- AvenderLine Project -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/imgs/ecommerce-web.jpg" alt="AvenderLine">
+                    <div class="project-links">
+                        <a href="https://github.com/JassimIbrahim-JI/avenderline-shop.git" 
+                           class="link-icon" 
+                           title="Source Code">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>AvenderLine</h3>
+                    <p>Luxury Qatari e-commerce platform</p>
+                    <div class="tech-stack">
+                        <span>ASP.NET MVC</span>
+                        <span>HTML, CSS Bootstrap 5 & JS(JQuery)</span>
+                        <span>Entity Framework</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Discover Qatar Project -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/imgs/avenderline.png" alt="Discover Qatar">
+                    <div class="project-links">
+                        <a href="https://github.com/JassimIbrahim-JI/DiscQa.git" 
+                           class="link-icon" 
+                           title="Source Code">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Discover Qatar</h3>
+                    <p>Tourism guide Android application</p>
+                    <div class="tech-stack">
+                        <span>Android SDK</span>
+                        <span>Firebase</span>
+                        <span>Google Maps API</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Employee Admin System -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/imgs/management-system.jpg" alt="Admin System">
+                    <div class="project-links">
+                        <a href="https://github.com/JassimIbrahim-JI/EmployeeSolution.git" 
+                           class="link-icon" 
+                           title="Source Code">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Employee Admin System</h3>
+                    <p>HR management web application</p>
+                    <div class="tech-stack">
+                        <span>Blazor WASM</span>
+                        <span>HTML, CSS Bootstrap 5 & JS(Vanilla Js)</span>
+                        <span>Entity Framework</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="section-header">
+        <p>Get in touch</p>
+        <h2><span>Contact</span> Me</h2>
+    </div>
+    
+    <div class="contact-content">
+        <!-- Contact Info Column -->
+        <div class="contact-info">
+            <h2>Let's Work Together</h2>
+            <p>Have a project in mind or want to discuss opportunities? Reach out through any of these channels:</p>
+            
+            <div class="contact-details">
+                <!-- Phone -->
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                    <div>
+                        <h3>Phone</h3>
+                        <a href="tel:+97433298093">+974 33298093</a>
+                    </div>
+                </div>
+                
+                <!-- Email -->
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:jassim.ibrhm@gmail.com">jassim.ibrhm@gmail.com</a>
+                    </div>
+                </div>
+                
+                <!-- GitHub -->
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </div>
+                    <div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/JassimIbrahim-JI" target="_blank">github.com/JassimIbrahim-JI</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+             
+            </div>
+        </div>
+        
+        <!-- Contact Form Column -->
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                Send Message
+                <ion-icon name="send-outline" class="icon-right"></ion-icon>
+            </button>
+            <div class="form-success">Message sent successfully!</div>
+        </form>
+    </div>
+</section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    emailjs.init('OYJzx685j09nxokJF');
+</script>
+    <script src="app.js"></script>
+</body>
+</html>
