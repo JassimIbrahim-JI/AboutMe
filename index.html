@@ -14,7 +14,7 @@
     <!-- Floating Navigation -->
     <nav class="floating-nav">
         <div class="nav-container">
-            <a href="#main" class="logo">Devel<span>o</span>per<b>.</b></a>
+            <a href="#home" class="logo">Devel<span>o</span>per<b>.</b></a>
           
             <div class="nav-links">
                 <a href="#home">Main</a>
@@ -24,7 +24,7 @@
                 <a href="#contact">Contact</a>
             </div>
 
-            <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+            <button class="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
             <div class="hamburger">
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -62,10 +62,10 @@
             <div class="about-text">
                 <h2>About <span>Me</span></h2>
                 <h4>Full Stack .NET Developer</h4>
-                <p class="bio">Detail-oriented .NET programmer with 3 years of experience developing web applications.
-                    Proficient in ASP.NET core, Bootstrap 5, Blazor WASM & C#. Skilled in problem solving and 
-                    database programming using SQL Server.
-                    <span id="show" class="hidden-text">Experienced in front-end development using HTML5, CSS3, JavaScript (ES6+), AJAX requests with jQuery, vanilla JS.</span>
+                <p class="bio">Detail-oriented Full Stack .NET Developer with 3+ years of experience developing modern web applications.
+                    Proficient in .NET 8, ASP.NET Core, Clean Architecture, Next.js, and TypeScript. Skilled in crafting scalable REST APIs, 
+                    database modeling with SQL Server & PostgreSQL, and building responsive, interactive user experiences.
+                    <span id="show" class="hidden-text">Experienced with Docker containerization, payment gateways (Tap Payments, Stripe), AI integrations via Microsoft Semantic Kernel, and modern frontend tools.</span>
                 </p>
                 <button class="btn btn-accent" id="readmore" aria-expanded="false">
                     <span class="btn-text">Read More</span>
@@ -92,12 +92,12 @@
                 </div>
                 <h3>E-Commerce Development</h3>
                 <p>
-                    Developed <strong>Avenderline</strong> (Qatari abaya brand) e-commerce solution using 
-                    <strong>ASP.NET Core</strong> with <strong>HTML5/CSS3/JavaScript</strong>. Features include:
-                    product catalog, shopping cart, and secure checkout system.
+                    Developed <strong>Avenderline</strong>, a full-stack luxury Qatari abaya e-commerce platform using 
+                    <strong>.NET 8 Web API</strong> (Clean Architecture) and <strong>Next.js 14</strong> (TypeScript & Tailwind). Features include 
+                    Tap Payments integration (Apple Pay, local cards in QAR), AI Concierge with Microsoft Semantic Kernel, and Docker deployment.
                 </p>
                 <div class="service-links">
-                    <a href="https://github.com/JassimIbrahim-JI/Avenderline-shop.git" target="_blank">
+                    <a href="https://github.com/JassimIbrahim-JI/avenderline-shop" target="_blank" rel="noopener noreferrer" title="View Avenderline on GitHub">
                         <ion-icon name="logo-github"></ion-icon>
                     </a>
                 </div>
@@ -168,10 +168,12 @@
             <!-- AvenderLine Project -->
             <article class="project-card">
                 <div class="project-image">
-                    <img src="assets/imgs/ecommerce-web.jpg" alt="AvenderLine">
+                    <img src="assets/imgs/ecommerce-web.jpg" alt="AvenderLine" loading="lazy">
                     <div class="project-links">
-                        <a href="https://github.com/JassimIbrahim-JI/Avenderline-shop.git" 
+                        <a href="https://github.com/JassimIbrahim-JI/avenderline-shop" 
                            class="link-icon" 
+                           target="_blank"
+                           rel="noopener noreferrer"
                            title="Source Code">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
@@ -179,11 +181,16 @@
                 </div>
                 <div class="project-info">
                     <h3>AvenderLine</h3>
-                    <p>Luxury Qatari e-commerce platform</p>
+                    <p>Luxury Qatari abaya e-commerce platform with AI Concierge & Tap Payments</p>
                     <div class="tech-stack">
-                        <span>ASP.NET MVC</span>
-                        <span>HTML, CSS Bootstrap 5 & JS(JQuery)</span>
-                        <span>Entity Framework</span>
+                        <span>.NET 8 Web API</span>
+                        <span>Clean Architecture</span>
+                        <span>Next.js 14</span>
+                        <span>TypeScript</span>
+                        <span>EF Core & PostgreSQL</span>
+                        <span>Tap Payments (Apple Pay)</span>
+                        <span>Semantic Kernel AI</span>
+                        <span>Docker</span>
                     </div>
                 </div>
             </article>
@@ -191,11 +198,13 @@
             <!-- Cineflix Project -->
             <article class="project-card">
                 <div class="project-image">
-                    <img src="assets/imgs/favcine.png" alt="Cineflix">
+                    <img src="assets/imgs/favcine.png" alt="Cineflix" loading="lazy">
                     <div class="project-links">
                         <a href="https://github.com/JassimIbrahim-JI/Cineflix.git" 
-                        class="link-icon" 
-                        title="Source Code">
+                           class="link-icon" 
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           title="Source Code">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </div>
@@ -215,10 +224,12 @@
             <!-- Discover World Project -->
             <article class="project-card">
                 <div class="project-image">
-                    <img src="assets/imgs/favicon.png" alt="Discover World">
+                    <img src="assets/imgs/favicon.png" alt="Discover World" loading="lazy">
                     <div class="project-links">
                         <a href="https://github.com/JassimIbrahim-JI/Booklir.git" 
                            class="link-icon" 
+                           target="_blank"
+                           rel="noopener noreferrer"
                            title="Source Code">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
@@ -226,12 +237,12 @@
                 </div>
                 <div class="project-info">
                     <h3>Discover World</h3>
-                    <p>E-Booking platform</p>
+                    <p>E-Booking platform with real-time notifications</p>
                     <div class="tech-stack">
-                     <span>ASP.NET MVC</span>
-                      <span>HTML, CSS Bootstrap 5 & JS(JQuery)</span>
-                      <span>Notification System</span>
-                      <span>Entity Framework</span>
+                        <span>ASP.NET MVC</span>
+                        <span>HTML, CSS Bootstrap 5 & JS</span>
+                        <span>Notification System</span>
+                        <span>Entity Framework</span>
                     </div>
                 </div>
             </article>
@@ -239,10 +250,12 @@
             <!-- Employee Admin System -->
             <article class="project-card">
                 <div class="project-image">
-                    <img src="assets/imgs/management-system.jpg" alt="Admin System">
+                    <img src="assets/imgs/management-system.jpg" alt="Admin System" loading="lazy">
                     <div class="project-links">
                         <a href="https://github.com/JassimIbrahim-JI/EmployeeSolution.git" 
                            class="link-icon" 
+                           target="_blank"
+                           rel="noopener noreferrer"
                            title="Source Code">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
@@ -253,8 +266,9 @@
                     <p>HR management web application</p>
                     <div class="tech-stack">
                         <span>Blazor WASM</span>
-                        <span>HTML, CSS Bootstrap 5 & JS(Vanilla Js)</span>
+                        <span>ASP.NET Core</span>
                         <span>Entity Framework</span>
+                        <span>SQL Server</span>
                     </div>
                 </div>
             </article>
@@ -304,17 +318,19 @@
                     </div>
                     <div>
                         <h3>GitHub</h3>
-                        <a href="https://github.com/JassimIbrahim-JI" target="_blank">github.com/JassimIbrahim-JI</a>
+                        <a href="https://github.com/JassimIbrahim-JI" target="_blank" rel="noopener noreferrer">github.com/JassimIbrahim-JI</a>
                     </div>
                 </div>
             </div>
             
             <!-- Social Media Links -->
             <div class="social-links">
-                <a href="#" aria-label="LinkedIn">
-                    <ion-icon name="logo-linkedin"></ion-icon>
+                <a href="https://github.com/JassimIbrahim-JI" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <ion-icon name="logo-github"></ion-icon>
                 </a>
-             
+                <a href="mailto:jassim.ibrhm@gmail.com" aria-label="Email">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
             </div>
         </div>
         
@@ -337,6 +353,13 @@
         </form>
     </div>
 </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Jassim Ibrahim. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
